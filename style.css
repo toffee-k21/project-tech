@@ -170,6 +170,9 @@ overflow: hidden;
     border: none;
     border-top: 3px solid grey; 
 } */
+.shop a{
+    text-decoration: none;
+}
 .card img{
     width: 200px;
 }
