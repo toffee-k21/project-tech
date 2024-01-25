@@ -84,7 +84,11 @@ listItem[0].addEventListener('mouseover',()=>{
     dropdownlist[1].style.display = "none"
     dropdownlist[2].style.display = "none"
     dropdownlist[3].style.display = "none"
+<<<<<<< HEAD
     dropdownlist[0].style.animation = "animate .5s ease-in-out"
+=======
+    dropdownlist[0].style.animation = "animate 3s ease-in-out"
+>>>>>>> 4480e1951fc881611d621e7d881cff14dbc9a4a8
     navbar.style.backgroundColor = "black"
 })
 
@@ -95,7 +99,11 @@ listItem[0].addEventListener('mouseover',()=>{
 // })
 navCont.addEventListener('mouseleave',()=>{
     dropdownlist[0].style.display = "none"
+<<<<<<< HEAD
     dropdownlist[0].style.animation = "animate2 .5s ease-out"
+=======
+    dropdownlist[0].style.animation = "animate2 5s ease-out"
+>>>>>>> 4480e1951fc881611d621e7d881cff14dbc9a4a8
     navbar.style.backgroundColor = ""
 })
 
